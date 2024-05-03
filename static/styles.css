@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("a.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    width: 700px;
+    background: transparent;
+    backdrop-filter: blur(9px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 99%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #0a75f0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prediction {
+    font-weight: bold;
+}
+
+.prediction-container {
+    text-align: center;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.churn {
+    color: darkred;
+}
+
+.not-churn {
+    color: green;
+}
+.wrapper{
+    width: 700px;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 10px 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrapper .btn{
+    width: 100%;    
+    height: 45px;
+    background: #04adf0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 600;
+    
+  }
+  .wrapper .btn:hover {
+    background-color: #0f99ac;
+  }
+  .psn{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
